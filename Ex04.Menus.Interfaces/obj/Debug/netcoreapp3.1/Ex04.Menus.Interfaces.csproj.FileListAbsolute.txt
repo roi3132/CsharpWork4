@@ -1,0 +1,4 @@
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.csprojAssemblyReference.cache
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.AssemblyInfoInputs.cache
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.AssemblyInfo.cs
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.csproj.CoreCompileInputs.cache

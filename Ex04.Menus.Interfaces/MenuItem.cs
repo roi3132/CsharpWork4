@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Ex04.Menus.Interfaces
 {
     public class MenuItem
     {
-
-        private readonly string m_Title;
+        protected readonly string m_Title;
+        protected readonly List<MenuItem> m_ListOfItems;
 
         public string Title
         {
@@ -20,6 +21,11 @@ namespace Ex04.Menus.Interfaces
         public override string ToString()
         {
             return m_Title;
+        }
+
+        public void add(MenuItem i_Item) 
+        {
+            m_ListOfItems.Add(i_Item);
         }
     }
 }
