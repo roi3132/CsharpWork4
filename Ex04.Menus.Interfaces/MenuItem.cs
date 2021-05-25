@@ -2,17 +2,17 @@
 
 namespace Ex04.Menus.Interfaces
 {
-    public class MenueItem
+    public class MenuItem
     {
 
         private readonly string m_Title;
 
-        public string Text
+        public string Title
         {
             get { return m_Title; }
         }
 
-        public MenueItem(string i_Titls) 
+        public MenuItem(string i_Titls) 
         {
             m_Title = i_Titls;
         }
