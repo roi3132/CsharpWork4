@@ -8,12 +8,13 @@ namespace Ex04.Menus.Interfaces
     {
         private IExecutable m_ActionToExetute;
 
-        public Leaf(string i_Title, IExecutable i_ActionToExetute) :base(i_Title)
+        public Leaf(string i_Title, IExecutable i_ActionToExetute) : base(i_Title)
         {
-            m_ActionToExetute = i_ActionToExetute;     
+            m_ActionToExetute = i_ActionToExetute;
+        }
+        public void PrintAction() 
+        {
+            m_ActionToExetute.Invoke();
         }
     }
-
-    new ac
-    Leaf("sdfsd")
 }

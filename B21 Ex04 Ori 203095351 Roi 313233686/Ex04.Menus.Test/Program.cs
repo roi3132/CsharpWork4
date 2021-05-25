@@ -1,12 +1,12 @@
 ﻿using System;
-
 namespace Ex04.Menus.Test
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            GenerateMenu menu = new GenerateMenu();
+            menu.RunMenu();
         }
     }
 }

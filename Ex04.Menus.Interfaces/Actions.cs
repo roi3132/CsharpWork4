@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ex04.Menus.Interfaces
 {
-    class Actions
+    public class Actions
     {
         public class ShowVersion : IExecutable
         {
@@ -14,20 +14,21 @@ namespace Ex04.Menus.Interfaces
             }
         }
 
-        public class CountSpacesInSenteces : IExecutable
+        public class CountSpaces : IExecutable
         {
             public void Invoke()
             {
                 Console.WriteLine("Please Enter a sentences.");
                 string sentences = Console.ReadLine();
-                int count = 0;
+                int countSpaces = 0;
                 foreach (char letter in sentences)
                 {
                     if (char.IsWhiteSpace(letter))
                     {
-                        count++;
+                        countSpaces++;
                     }
                 }
+                Console.WriteLine("The numbur of spaces is {0}", countSpaces);
             }
         }
 

@@ -1,0 +1,9 @@
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\bin\Debug\netcoreapp3.1\Ex04.Menus.Delegates.deps.json
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\bin\Debug\netcoreapp3.1\Ex04.Menus.Delegates.dll
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\bin\Debug\netcoreapp3.1\Ex04.Menus.Delegates.pdb
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.csprojAssemblyReference.cache
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.AssemblyInfoInputs.cache
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.AssemblyInfo.cs
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.csproj.CoreCompileInputs.cache
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.dll
+C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.pdb
