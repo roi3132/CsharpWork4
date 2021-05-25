@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\roial\\.nuget\\packages\\": {}
+    "C:\\Users\\oriro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj",
+      "projectUniqueName": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj",
       "projectName": "Ex04.Menus.Delegates",
-      "projectPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj",
-      "packagesPath": "C:\\Users\\roial\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Delegates\\obj\\",
+      "projectPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj",
+      "packagesPath": "C:\\Users\\oriro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Delegates\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\roial\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oriro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
