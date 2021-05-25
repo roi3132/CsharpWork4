@@ -2,7 +2,7 @@
 
 namespace Ex04.Menus.Delegates
 {
-    public class Class1
+    public class MenueItem
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ex04.Menus.Interfaces
 {
-    interface INotify
+    interface IAction
     {
         void Invoke();
     }
