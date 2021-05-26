@@ -5,7 +5,6 @@ namespace Ex04.Menus.Delegates
 {
     public class MenuItem
     {
-
         private readonly string m_Title;
         private readonly List<MenuItem> m_ListOfItems;
 
@@ -16,17 +15,17 @@ namespace Ex04.Menus.Delegates
 
         public MenuItem(string i_Titls)
         {
-            if (!(this is Leaf)) 
+            if (!(this is Leaf))
             {
                 m_ListOfItems = new List<MenuItem>();
-            }        
+            }
             m_Title = i_Titls;
         }
 
         public void PrintSubMenu()
         {
             bool menuRun = true;
-            while (menuRun) 
+            while (menuRun)
             {
                 Console.WriteLine(Title);
                 Console.WriteLine("=====================");
@@ -42,37 +41,31 @@ namespace Ex04.Menus.Delegates
                 {
                     Console.WriteLine("0)Exit.");
                 }
-                else 
+                else
                 {
                     Console.WriteLine("0)Back.");
                 }
                 int userChoise = GetChoiceFromUser(ListOfItems.Count);
                 Console.Clear();
                 if (userChoise == 0)
-                {                
+                {
                     Console.Clear();
                     break;
-                }              
+                }
                 userChoise -= 1;
 
                 Leaf leaf = m_ListOfItems[userChoise] as Leaf;
-               
+
                 if (leaf != null)
                 {
-                    leaf.Selected += Items_Selected;
+                    leaf.DoWhenChosen();
                 }
-                else 
+                else
                 {
                     m_ListOfItems[userChoise].PrintSubMenu();
                 }
-            }          
+            }
         }
-
-        public void Items_Selected(Leaf i_Invoker) 
-        {
-            Console.WriteLine("doing");
-            i_Invoker.RunConcreteFunction();
-        } 
 
         public List<MenuItem> ListOfItems
         {
@@ -80,12 +73,13 @@ namespace Ex04.Menus.Delegates
         }
 
 
+
         public override string ToString()
         {
             return m_Title;
         }
 
-        public void add(MenuItem i_Item) 
+        public void add(MenuItem i_Item)
         {
             ListOfItems.Add(i_Item);
         }

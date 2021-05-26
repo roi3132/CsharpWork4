@@ -35,11 +35,11 @@ namespace Ex04.Menus.Test
 
             Delegates.MainMenu menu = new Delegates.MainMenu("Main Menu Delegates");
             Delegates.MenuItem versionAndSpaces = new Delegates.MenuItem("Version and Spaces");
-            Delegates.Leaf showVersion = new Delegates.Leaf("Show Version", Delegates.Leaf.eFunction.ShowVersion);
-            Delegates.Leaf countSpaces = new Delegates.Leaf("Count Spaces", Delegates.Leaf.eFunction.CountSpaces);
+            Delegates.Leaf showVersion = new Delegates.Leaf("Show Version", new Actions.ShowVersion().Invoke);
+            Delegates.Leaf countSpaces = new Delegates.Leaf("Count Spaces", new Actions.CountSpaces().Invoke);
             Delegates.MenuItem showDateAndTime = new Delegates.MenuItem("Show Date/Time");
-            Delegates.Leaf showTime = new Delegates.Leaf("Show Time", Delegates.Leaf.eFunction.ShowTime);
-            Delegates.Leaf showDate = new Delegates.Leaf("Show Date", Delegates.Leaf.eFunction.ShowDate);
+            Delegates.Leaf showTime = new Delegates.Leaf("Show Time", new Actions.ShowTime().Invoke);
+            Delegates.Leaf showDate = new Delegates.Leaf("Show Date", new Actions.ShowDate().Invoke);
 
             versionAndSpaces.add(showVersion);
             versionAndSpaces.add(countSpaces);
