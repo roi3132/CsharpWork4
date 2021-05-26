@@ -5,38 +5,58 @@ using System.Text;
 namespace Ex04.Menus.Test
 {
     using Ex04.Menus.Interfaces;
+    using Ex04.Menus.Delegates;
 
     class GenerateMenu
     {
-        public MainMenu MakeMenuUsingInterfaces() 
+        public Interfaces.MainMenu MakeMenuUsingInterfaces() 
         {
-            MainMenu main = new MainMenu("Main Menu");
-            MenuItem versionAndSpaces = new MenuItem("Version and Spaces");
-            Leaf showVersion = new Leaf("Show Version",new Actions.ShowVersion());
-            Leaf countSpaces = new Leaf("Count Spaces",new Actions.CountSpaces());
-            MenuItem showDateAndTime = new MenuItem("Show Date/Time");
-            Leaf showTime = new Leaf("Show Time", new Actions.ShowTime());
-            Leaf showDate = new Leaf("Show Date", new Actions.ShowDate());
+
+            Interfaces.MainMenu menu = new Interfaces.MainMenu("Main Menu");
+            Interfaces.MenuItem versionAndSpaces = new Interfaces.MenuItem("Version and Spaces");
+            Interfaces.Leaf showVersion = new Interfaces.Leaf("Show Version",new Actions.ShowVersion());
+            Interfaces.Leaf countSpaces = new Interfaces.Leaf("Count Spaces",new Actions.CountSpaces());
+            Interfaces.MenuItem showDateAndTime = new Interfaces.MenuItem("Show Date/Time");
+            Interfaces.Leaf showTime = new Interfaces.Leaf("Show Time", new Actions.ShowTime());
+            Interfaces.Leaf showDate = new Interfaces.Leaf("Show Date", new Actions.ShowDate());
 
             versionAndSpaces.add(showVersion);
             versionAndSpaces.add(countSpaces);
-            main.add(versionAndSpaces);
+            menu.add(versionAndSpaces);
             showDateAndTime.add(showTime);
             showDateAndTime.add(showDate);
-            main.add(showDateAndTime);
+            menu.add(showDateAndTime);
 
-            return main;
+            return menu;
 
         }
-        public void MakeMenuUsingDelegates()
+        public Delegates.MainMenu MakeMenuUsingDelegates()
         {
 
+            Delegates.MainMenu menu = new Delegates.MainMenu("Main Menu");
+            Delegates.MenuItem versionAndSpaces = new Delegates.MenuItem("Version and Spaces");
+            Delegates.Leaf showVersion = new Delegates.Leaf("Show Version", Delegates.Leaf.eFunction.ShowVersion);
+            Delegates.Leaf countSpaces = new Delegates.Leaf("Count Spaces", Delegates.Leaf.eFunction.CountSpaces);
+            Delegates.MenuItem showDateAndTime = new Delegates.MenuItem("Show Date/Time");
+            Delegates.Leaf showTime = new Delegates.Leaf("Show Time", Delegates.Leaf.eFunction.ShowTime);
+            Delegates.Leaf showDate = new Delegates.Leaf("Show Date", Delegates.Leaf.eFunction.ShowDate);
+
+            versionAndSpaces.add(showVersion);
+            versionAndSpaces.add(countSpaces);
+            menu.add(versionAndSpaces);
+            showDateAndTime.add(showTime);
+            showDateAndTime.add(showDate);
+            menu.add(showDateAndTime);
+
+            return menu;
         }
 
         public void RunMenu() 
         {
-            MainMenu menu = MakeMenuUsingInterfaces();
-            menu.Show();
+            Interfaces.MainMenu menuByInterfaces = MakeMenuUsingInterfaces();
+            menuByInterfaces.Show();
+            Delegates.MainMenu menuByDelegates = MakeMenuUsingDelegates();
+            menuByDelegates.Show();
             //MakeMenuUsingDelegates();
         }
     }
