@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj": {}
+    "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj": {
+    "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj",
         "projectName": "Ex04.Menus.Interfaces",
-        "projectPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\oriro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\roial\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oriro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roial\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

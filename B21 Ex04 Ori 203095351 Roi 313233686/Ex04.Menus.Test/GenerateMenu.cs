@@ -12,7 +12,7 @@ namespace Ex04.Menus.Test
         public Interfaces.MainMenu MakeMenuUsingInterfaces() 
         {
 
-            Interfaces.MainMenu menu = new Interfaces.MainMenu("Main Menu");
+            Interfaces.MainMenu menu = new Interfaces.MainMenu("Main Menu Interfaces");
             Interfaces.MenuItem versionAndSpaces = new Interfaces.MenuItem("Version and Spaces");
             Interfaces.Leaf showVersion = new Interfaces.Leaf("Show Version",new Actions.ShowVersion());
             Interfaces.Leaf countSpaces = new Interfaces.Leaf("Count Spaces",new Actions.CountSpaces());
@@ -33,7 +33,7 @@ namespace Ex04.Menus.Test
         public Delegates.MainMenu MakeMenuUsingDelegates()
         {
 
-            Delegates.MainMenu menu = new Delegates.MainMenu("Main Menu");
+            Delegates.MainMenu menu = new Delegates.MainMenu("Main Menu Delegates");
             Delegates.MenuItem versionAndSpaces = new Delegates.MenuItem("Version and Spaces");
             Delegates.Leaf showVersion = new Delegates.Leaf("Show Version", Delegates.Leaf.eFunction.ShowVersion);
             Delegates.Leaf countSpaces = new Delegates.Leaf("Count Spaces", Delegates.Leaf.eFunction.CountSpaces);

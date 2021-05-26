@@ -7,3 +7,12 @@ C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netco
 C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.csproj.CoreCompileInputs.cache
 C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.dll
 C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.pdb
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\bin\Debug\netcoreapp3.1\Ex04.Menus.Delegates.deps.json
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\bin\Debug\netcoreapp3.1\Ex04.Menus.Delegates.dll
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\bin\Debug\netcoreapp3.1\Ex04.Menus.Delegates.pdb
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.csprojAssemblyReference.cache
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.AssemblyInfoInputs.cache
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.AssemblyInfo.cs
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.csproj.CoreCompileInputs.cache
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.dll
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Delegates\obj\Debug\netcoreapp3.1\Ex04.Menus.Delegates.pdb

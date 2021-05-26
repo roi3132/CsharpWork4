@@ -43,19 +43,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oriro\\.nuget\\packages\\": {}
+    "C:\\Users\\roial\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\B21 Ex04 Ori 203095351 Roi 313233686\\Ex04.Menus.Test\\Ex04.Menus.Test.csproj",
+      "projectUniqueName": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\B21 Ex04 Ori 203095351 Roi 313233686\\Ex04.Menus.Test\\Ex04.Menus.Test.csproj",
       "projectName": "Ex04.Menus.Test",
-      "projectPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\B21 Ex04 Ori 203095351 Roi 313233686\\Ex04.Menus.Test\\Ex04.Menus.Test.csproj",
-      "packagesPath": "C:\\Users\\oriro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\B21 Ex04 Ori 203095351 Roi 313233686\\Ex04.Menus.Test\\obj\\",
+      "projectPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\B21 Ex04 Ori 203095351 Roi 313233686\\Ex04.Menus.Test\\Ex04.Menus.Test.csproj",
+      "packagesPath": "C:\\Users\\roial\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\B21 Ex04 Ori 203095351 Roi 313233686\\Ex04.Menus.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oriro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roial\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,11 +69,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj": {
-              "projectPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj"
+            "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj": {
+              "projectPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Delegates\\Ex04.Menus.Delegates.csproj"
             },
-            "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\oriro\\Documents\\GitHub\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj"
+            "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\roial\\Google Drive\\גיבוי לענן משותף מחשבים\\לימודים\\קורסים\\שנה ג\\סמסטר ב\\C# .net\\CsharpWork4\\Ex04.Menus.Interfaces\\Ex04.Menus.Interfaces.csproj"
             }
           }
         }

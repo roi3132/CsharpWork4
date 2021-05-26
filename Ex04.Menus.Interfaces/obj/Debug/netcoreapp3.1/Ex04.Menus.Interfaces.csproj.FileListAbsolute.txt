@@ -7,3 +7,12 @@ C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\bin\Debug\netc
 C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\bin\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.pdb
 C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.dll
 C:\Users\oriro\Documents\GitHub\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.pdb
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\bin\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.deps.json
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\bin\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.dll
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\bin\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.pdb
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.csprojAssemblyReference.cache
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.AssemblyInfoInputs.cache
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.AssemblyInfo.cs
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.dll
+C:\Users\roial\Google Drive\גיבוי לענן משותף מחשבים\לימודים\קורסים\שנה ג\סמסטר ב\C# .net\CsharpWork4\Ex04.Menus.Interfaces\obj\Debug\netcoreapp3.1\Ex04.Menus.Interfaces.pdb
