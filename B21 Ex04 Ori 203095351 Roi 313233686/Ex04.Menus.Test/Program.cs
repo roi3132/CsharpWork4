@@ -1,5 +1,4 @@
-﻿using System;
-namespace Ex04.Menus.Test
+﻿namespace Ex04.Menus.Test
 {
     class Program
     {

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ex04.Menus.Interfaces
+﻿ namespace Ex04.Menus.Test
 {
+    using Ex04.Menus.Interfaces;
+    using System;
+
     public class Actions
     {
         public class ShowVersion : IExecutable
@@ -28,6 +27,7 @@ namespace Ex04.Menus.Interfaces
                         countSpaces++;
                     }
                 }
+
                 Console.WriteLine("The numbur of spaces is {0}", countSpaces);
             }
         }
@@ -41,7 +41,7 @@ namespace Ex04.Menus.Interfaces
             }
         }
 
-        public class ShowDate: IExecutable
+        public class ShowDate : IExecutable
         {
             public void Invoke()
             {
@@ -51,4 +51,3 @@ namespace Ex04.Menus.Interfaces
         }
     }
 }
-

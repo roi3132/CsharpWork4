@@ -1,21 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ex04.Menus.Test
+﻿namespace Ex04.Menus.Test
 {
-    using Ex04.Menus.Interfaces;
-    using Ex04.Menus.Delegates;
-
-    class GenerateMenu
+    public class GenerateMenu
     {
         public Interfaces.MainMenu MakeMenuUsingInterfaces() 
         {
-
             Interfaces.MainMenu menu = new Interfaces.MainMenu("Main Menu Interfaces");
             Interfaces.MenuItem versionAndSpaces = new Interfaces.MenuItem("Version and Spaces");
-            Interfaces.Leaf showVersion = new Interfaces.Leaf("Show Version",new Actions.ShowVersion());
-            Interfaces.Leaf countSpaces = new Interfaces.Leaf("Count Spaces",new Actions.CountSpaces());
+            Interfaces.Leaf showVersion = new Interfaces.Leaf("Show Version", new Actions.ShowVersion());
+            Interfaces.Leaf countSpaces = new Interfaces.Leaf("Count Spaces", new Actions.CountSpaces());
             Interfaces.MenuItem showDateAndTime = new Interfaces.MenuItem("Show Date/Time");
             Interfaces.Leaf showTime = new Interfaces.Leaf("Show Time", new Actions.ShowTime());
             Interfaces.Leaf showDate = new Interfaces.Leaf("Show Date", new Actions.ShowDate());
@@ -28,11 +20,10 @@ namespace Ex04.Menus.Test
             menu.add(showDateAndTime);
 
             return menu;
-
         }
+
         public Delegates.MainMenu MakeMenuUsingDelegates()
         {
-
             Delegates.MainMenu menu = new Delegates.MainMenu("Main Menu Delegates");
             Delegates.MenuItem versionAndSpaces = new Delegates.MenuItem("Version and Spaces");
             Delegates.Leaf showVersion = new Delegates.Leaf("Show Version", new Actions.ShowVersion().Invoke);
@@ -56,8 +47,7 @@ namespace Ex04.Menus.Test
             Interfaces.MainMenu menuByInterfaces = MakeMenuUsingInterfaces();
             menuByInterfaces.Show();
             Delegates.MainMenu menuByDelegates = MakeMenuUsingDelegates();
-            menuByDelegates.Show();
-            //MakeMenuUsingDelegates();
+            menuByDelegates.Show();   
         }
-    }
+    }  
 }

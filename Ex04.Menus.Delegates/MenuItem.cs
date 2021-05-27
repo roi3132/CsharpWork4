@@ -1,25 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Ex04.Menus.Delegates
+﻿namespace Ex04.Menus.Delegates
 {
+    using System;
+    using System.Collections.Generic;
+
     public class MenuItem
     {
-        private readonly string m_Title;
-        private readonly List<MenuItem> m_ListOfItems;
+        private readonly string r_Title;
+        private readonly List<MenuItem> r_ListOfItems;
 
         public string Title
         {
-            get { return m_Title; }
+            get { return r_Title; }
         }
 
         public MenuItem(string i_Titls)
         {
             if (!(this is Leaf))
             {
-                m_ListOfItems = new List<MenuItem>();
+                r_ListOfItems = new List<MenuItem>();
             }
-            m_Title = i_Titls;
+
+            r_Title = i_Titls;
         }
 
         public void PrintSubMenu()
@@ -30,13 +31,14 @@ namespace Ex04.Menus.Delegates
                 Console.WriteLine(Title);
                 Console.WriteLine("=====================");
                 int num = 1;
-                Console.WriteLine("Select form {0} option.", m_ListOfItems.Count + 1);
+                Console.WriteLine("Select form {0} option.", r_ListOfItems.Count + 1);
 
                 foreach (MenuItem menu in ListOfItems)
                 {
-                    Console.WriteLine(num + ")" + menu.m_Title);
+                    Console.WriteLine(num + ")" + menu.r_Title);
                     num++;
                 }
+
                 if (this is MainMenu)
                 {
                     Console.WriteLine("0)Exit.");
@@ -45,6 +47,7 @@ namespace Ex04.Menus.Delegates
                 {
                     Console.WriteLine("0)Back.");
                 }
+
                 int userChoise = GetChoiceFromUser(ListOfItems.Count);
                 Console.Clear();
                 if (userChoise == 0)
@@ -52,9 +55,10 @@ namespace Ex04.Menus.Delegates
                     Console.Clear();
                     break;
                 }
+
                 userChoise -= 1;
 
-                Leaf leaf = m_ListOfItems[userChoise] as Leaf;
+                Leaf leaf = r_ListOfItems[userChoise] as Leaf;
 
                 if (leaf != null)
                 {
@@ -62,21 +66,19 @@ namespace Ex04.Menus.Delegates
                 }
                 else
                 {
-                    m_ListOfItems[userChoise].PrintSubMenu();
+                    r_ListOfItems[userChoise].PrintSubMenu();
                 }
             }
         }
 
         public List<MenuItem> ListOfItems
         {
-            get { return m_ListOfItems; }
+            get { return r_ListOfItems; }
         }
-
-
 
         public override string ToString()
         {
-            return m_Title;
+            return r_Title;
         }
 
         public void add(MenuItem i_Item)
